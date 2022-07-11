@@ -1,5 +1,5 @@
 # Data-Analytics-project-Propensity-model-
-##**1. Abstract**
+## **1. Abstract**
 The dataset given for the project consisted of details of the customers who had taken loan.
 Based on multiple features available, our task is to predict whether a loan will go default or not.
 The analysis done consists of- Using various libraries from viz. Pandas, NumPy, Seaborn, SciKit
