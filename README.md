@@ -123,10 +123,12 @@ Meaning that the final predictions can vary significantly even if little changes
 One of the most popular machine learning classifiers these days. It works perfectly for both classification as well as regression. It is an ensemble learning method where bagging and boosting are the two most widely used ensemble learners. Both the techniques can be used with various statistical models but the most common is using these with the decision trees. XGBoost was developed to increase computational speed and optimize model performance and it very well works the same. XGBoost was written in C++ and has built in parameters for regularization and cross validation to keep the bias and variance at it minimum. These built in parameters are what gives it the advantage and leads to faster implementation.
  
  
-#### Logistic Regression	        95.69	94.97	83.63	83.35  0.908
-#### KNN (k=15) *	               98.08	97.97	96.20	96.30  0.994
-#### Naïve Bayes	                95.25	94.30	81.26	81.23  0.898     
-#### Random Forest Classifier   	98.23	98.14	99.71	99.71  0.999              
-#### Decision Tree Classifier	   97.08	97.05	99.17	99.17  0.992
-#### XGBoost Classifier          98.24 98.15 97.99 98.00  0.997	
+#####               precision    recall  f1-score   support
+##### 
+#####          0.0       0.94      0.76      0.84     64000
+#####          1.0       0.25      0.64      0.36      8000
+##### 
+#####     accuracy                           0.75     72000
+#####    macro avg       0.60      0.70      0.60     72000
+##### weighted avg       0.87      0.75      0.79     72000	
 
