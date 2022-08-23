@@ -1,7 +1,6 @@
 # Data-Analytics-project-Propensity-model-
 ## **1. Abstract**
-The dataset given for the project consisted of details of the customers who had taken loan.
-Based on multiple features available, our task is to predict whether a loan will go default or not.
+Given historical data of the past 6 months data of 7,20,000 of the PayPal bank customers. We built a propensity model using the historical data given,which tries to predict whether a customers is applicable to get a credit card.
 The analysis done consists of- Using various libraries from viz. Pandas, NumPy, Seaborn, SciKit
 Learn etc., to summarize the data, pre-processing the data to ensure the suitability of the dataset
 for various Machine Learning Models, visualizing the distributions in the dataset using graphical
