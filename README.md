@@ -122,39 +122,12 @@ Meaning that the final predictions can vary significantly even if little changes
 
 One of the most popular machine learning classifiers these days. It works perfectly for both classification as well as regression. It is an ensemble learning method where bagging and boosting are the two most widely used ensemble learners. Both the techniques can be used with various statistical models but the most common is using these with the decision trees. XGBoost was developed to increase computational speed and optimize model performance and it very well works the same. XGBoost was written in C++ and has built in parameters for regularization and cross validation to keep the bias and variance at it minimum. These built in parameters are what gives it the advantage and leads to faster implementation.
  
+## Score
+## Logistic
+## Regression	                95.69	94.97	83.63	83.35  0.908
+## KNN (k=15) *	                98.08	97.97	96.20	96.30  0.994
+## Naïve Bayes	                95.25	94.30	81.26	81.23  0.898     
+## Random Forest Classifier	98.23	98.14	99.71	99.71  0.999              
+## Decision Tree Classifier	97.08	97.05	99.17	99.17  0.992
+## XGBoost Classifier           98.24   98.15   97.99   98.00  0.997	
 
-Model	Normal (Imbalanced)
-Data	Upsampled Data
-	Accuracy
-(%)	F1 Score	Accuracy
-(%)	F1 Score	ROC_AUC
-Score
-Logistic
-Regression	95.69	94.97	83.63	83.35	0.908
-KNN (k=15) *	98.08	97.97	96.20	96.30	0.994
-Naïve Bayes	95.25	94.30	81.26	81.23	0.898
-Random Forest
-Classifier	98.23	98.14	99.71	99.71	0.999
-Decision Tree
-Classifier	97.08	97.05	99.17	99.17	0.992
-XGBoost Classifier	
-98.24	
-98.15	
-97.99	
-98.00	
-0.997
-*Value of k was selected using cross validation
---> Detailed results for each model are shown in the Jupyter notebook
-
-Table 1: Summary of models trained on training data.
-
-
-
-## **5 Final Conclusion & Recommendations**
-Some of the Recommendations to avoid loans from going default:
-a)	Rolling out loan type 'A' for customers with higher annual income seems risky.
-b)	Focus more on customers aged above 50 which have better financial stability.
-c)	Ensure to carefully handle customers with higher annual income as well as occupation type 'X' since they have greater risk of defaulting the loan.
-d)	Customers belonging to occupation type Z and having high expenses, are more likely to default on loan. So, its advisable to focus on these people.
-e)	Focus more on customers whose occupation type is X and have low 'score4' value.
-f)	Having lesser amount of missing values would have helped for a better analysis.
